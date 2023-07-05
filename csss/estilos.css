@@ -1,0 +1,222 @@
+*{
+    
+    margin: 0;
+    pad: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header "
+    "section section section section section "
+    "h2 h2 h2 h2 h2 "
+    "main main main main main"
+    "footer footer footer footer footer "
+    ;
+    background-color: white;
+}
+
+
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+    background-color:rgba(8, 115, 255, 0.815);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+
+.card{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.card:hover {
+    color: black;
+    box-shadow: 0 0 10px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+    height: 300px;
+    width: 1520px;
+    
+}
+footer p{
+    font-size: 15px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 15px;
+
+}
+section{
+    grid-area: section;
+}
+h2{
+    grid-area: h2;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 172, 3);
+    color: white;
+    padding: 10px ;
+    margin-top: 10px;
+}
+
+
+.container-fluid{
+    background-color: rgba(8, 115, 255, 0.815);
+}
+.navbar-brand img{
+    height: 80px;
+    width: 150px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.carousel-inner{
+    grid-area: carrusel;
+}
+
+.card2{
+    border-radius: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 10px;
+    flex-wrap:wrap;
+    flex-direction: row;
+    background-color: rgba(104, 172, 3, 0.862);
+}
+.card2:hover{
+    color: black;
+    box-shadow: 0 0 10px;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categoria{
+    display: flex;
+    justify-content: space-between 100px;
+    
+}
+h2{
+    background-color: rgb(104, 172, 3);
+    height: 50px;
+    width: 1535px;
+    color: white;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ofertas{
+    margin-right: 50px;
+    background-color:rgba(8, 115, 255, 0.815) ;
+    padding: 5px;
+    border-radius: 10px;
+}
+.cuerpo{
+    background-color: black;
+}
+.caja1{
+    height: 70px;
+    width: 270px;
+    display: flex;
+    background-color: rgb(104, 172, 3);
+    margin-left: 20px;
+    flex-direction: column;
+    border: double black;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.caja1:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(1,2);
+
+}
+
+form{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.boton{
+    background-color:rgba(8, 115, 255, 0.815);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.formulario{
+    background-color: white;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+.hijo{
+    display: flex;
+    margin-top: 100px;
+
+}
+.hijito{
+    padding: 0;
+    margin: 0;
+
+}
+.quienes{
+    background-color: black;
+}
+.quien{
+    margin-top: 100px;
+}
+.parrafo{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
